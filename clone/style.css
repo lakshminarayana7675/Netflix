@@ -1,0 +1,42 @@
+body {
+  background-color: #141414;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: black;
+}
+
+input {
+  padding: 5px;
+}
+
+.banner {
+  text-align: center;
+  padding: 1rem;
+}
+
+.banner img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.movies {
+  padding: 1rem;
+}
+
+.movie-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.movie-row img {
+  width: 200px;
+  border-radius: 5px;
+}
